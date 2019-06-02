@@ -1,0 +1,28 @@
+﻿Build started 06/01/19 3:02:13 PM.
+     1>Project "C:\Users\risha\Documents\Visual Studio 2013\Projects\30052019\filesystem v2\filesystem v2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt command_parser.cpp file_system.cpp
+         command_parser.cpp
+     1>c:\users\risha\documents\visual studio 2013\projects\30052019\filesystem v2\command_parser.h(3): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>command_parser.cpp(8): error C2065: 'toke' : undeclared identifier
+     1>command_parser.cpp(8): error C2146: syntax error : missing ';' before identifier 'n'
+     1>command_parser.cpp(8): error C2065: 'n' : undeclared identifier
+     1>command_parser.cpp(9): error C2065: '_' : undeclared identifier
+     1>command_parser.cpp(9): error C2146: syntax error : missing ';' before identifier 'strupr'
+         file_system.cpp
+     1>file_system.cpp(7): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>file_system.cpp(10): warning C4244: 'return' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>file_system.cpp(39): warning C4101: 'itr' : unreferenced local variable
+     1>file_system.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+     1>file_system.cpp(100): warning C4101: 'itr' : unreferenced local variable
+     1>file_system.cpp(141): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>file_system.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+     1>file_system.cpp(203): warning C4018: '<' : signed/unsigned mismatch
+     1>file_system.cpp(239): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "C:\Users\risha\Documents\Visual Studio 2013\Projects\30052019\filesystem v2\filesystem v2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.12

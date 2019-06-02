@@ -1,0 +1,38 @@
+﻿Build started 05/30/19 3:40:33 PM.
+     1>Project "c:\Users\risha\documents\visual studio 2013\Projects\30052019\30052019\30052019.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (30052019.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cli.cpp command_parser.cpp file_system.cpp
+         cli.cpp
+     1>c:\users\risha\documents\visual studio 2013\projects\30052019\30052019\command_parser.h(3): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>cli.cpp(11): warning C4101: 'itr1' : unreferenced local variable
+     1>cli.cpp(11): warning C4101: 'workingHoursStartTime' : unreferenced local variable
+     1>cli.cpp(11): warning C4101: 'startDay' : unreferenced local variable
+     1>cli.cpp(11): warning C4101: 'itr2' : unreferenced local variable
+     1>cli.cpp(11): warning C4101: 'workingHoursEndTime' : unreferenced local variable
+         command_parser.cpp
+     1>c:\users\risha\documents\visual studio 2013\projects\30052019\30052019\command_parser.h(3): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         file_system.cpp
+     1>c:\users\risha\documents\visual studio 2013\projects\30052019\30052019\file_system.h(4): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>file_system.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>file_system.cpp(66): warning C4101: 'itr' : unreferenced local variable
+     1>file_system.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>file_system.cpp(170): warning C4018: '<' : signed/unsigned mismatch
+     1>file_system.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>file_system.cpp(202): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\risha\documents\visual studio 2013\Projects\30052019\Release\filesystem v1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\risha\documents\visual studio 2013\Projects\30052019\Release\filesystem v1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\risha\documents\visual studio 2013\Projects\30052019\Release\filesystem v1.lib" /MACHINE:X86 /SAFESEH Release\cli.obj
+         Release\command_parser.obj
+         Release\file_system.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         30052019.vcxproj -> c:\users\risha\documents\visual studio 2013\Projects\30052019\Release\filesystem v1.exe
+     1>Done Building Project "c:\Users\risha\documents\visual studio 2013\Projects\30052019\30052019\30052019.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.82

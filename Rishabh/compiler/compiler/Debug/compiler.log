@@ -1,0 +1,31 @@
+﻿Build started 06/01/19 10:12:13 PM.
+     1>Project "C:\Users\risha\Documents\Visual Studio 2013\Projects\compiler\compiler\compiler.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt compiler.cpp label_table.cpp symbol_table.cpp util.cpp
+         util.cpp
+         symbol_table.cpp
+         label_table.cpp
+         compiler.cpp
+     1>c:\users\risha\documents\visual studio 2013\projects\compiler\compiler\compiler.cpp(16): warning C4101: 'buf' : unreferenced local variable
+     1>c:\users\risha\documents\visual studio 2013\projects\compiler\compiler\compiler.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\risha\documents\visual studio 2013\projects\compiler\compiler\compiler.cpp(100): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\risha\documents\visual studio 2013\projects\compiler\compiler\compiler.cpp(104): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\risha\documents\visual studio 2013\projects\compiler\compiler\compiler.cpp(136): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data
+         Generating Code...
+     1>c:\users\risha\documents\visual studio 2013\projects\compiler\compiler\label_table.cpp(25): warning C4715: 'findLabel' : not all control paths return a value
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\risha\Documents\Visual Studio 2013\Projects\compiler\Debug\compiler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\risha\Documents\Visual Studio 2013\Projects\compiler\Debug\compiler.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\risha\Documents\Visual Studio 2013\Projects\compiler\Debug\compiler.lib" /MACHINE:X86 Debug\compiler.obj
+         Debug\intermediate_code.obj
+         Debug\label_table.obj
+         Debug\register.obj
+         Debug\stack.obj
+         Debug\symbol_table.obj
+         Debug\tokenizer.obj
+         Debug\main.obj
+         Debug\util.obj
+         compiler.vcxproj -> C:\Users\risha\Documents\Visual Studio 2013\Projects\compiler\Debug\compiler.exe
+     1>Done Building Project "C:\Users\risha\Documents\Visual Studio 2013\Projects\compiler\compiler\compiler.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.07
